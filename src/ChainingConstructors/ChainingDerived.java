@@ -10,6 +10,7 @@ public class ChainingDerived extends Base {
     }
 
     public ChainingDerived(int count, double other) {
+        // calls base class constructor
         super(count);
         this.other = other;
     }
