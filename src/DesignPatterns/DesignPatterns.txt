@@ -1,0 +1,17 @@
+• Creation – automatic creation of objects within code through some instantiation mechanisms
+    • Singleton – Ensures a class only has one instance, and provides a global point of access to it
+    • Factory – Lets a class defer instantiation to subclasses
+• Structural – composition of classes & objects, make it easier for them to work together
+    • Adapter – Lets classes work together that couldn’t otherwise because of incompatible interfaces
+    • Facade – Provides a unified interface to a set of interfaces in a subsystem to make it easier to use
+• Behavioural – communications between classes & objects, distribute responsibility between them
+    • Iterator – Provides access to the elements of a collection sequentially without exposing its underlying representation
+    • Observer – Provides a way that when one object changes state, all its subscribers are notified and updated automatically
+    • Template Method -  there is a basic structure/skeleton of some algorithm, but want to defer some steps to subclasses (inheritance)
+    • Strategy design pattern – allows variations of algorithm independent from clients that use it (delegation)
+
+
+
+
+
+

@@ -24,6 +24,4 @@ public class Box<T> {
         for (int i = 0; i < count && i < b.size(); i++)
             a.add(b.get(i));
     }
-
-
 }

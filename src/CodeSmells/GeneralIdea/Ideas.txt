@@ -1,0 +1,21 @@
+- extract methods
+- extract repeated values
+- limit code snippets to 15 lines
+- replace comments with meaningful method naming
+- Replace Parameter with Method
+- Replace Temp with Query
+- Introduce Parameter Object
+- Preserve Whole Object
+- Replace Method with Method Object
+
+
+• Duplicates (e.g., same loop/check, reference variables)
+    • Hard to make changes, making it less maintainable and less flexible
+    • Refactor by extracting duplicates
+• Long units (e.g., multiple steps)
+    • Hard to test, reuse, and understand
+    • Refactor by extracting duplicates, or similar parts and apply design patterns
+• Needs lots of comments
+    • Means the code is unclear, thus need lots of explanation & clarification
+
+
