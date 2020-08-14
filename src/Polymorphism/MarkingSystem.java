@@ -4,7 +4,7 @@ class MarkingSystem {
     double[ ] marks = {74, 85, 25, 55, 93, 1};
     void printLetterGrades() {
         // can use exact same code if we change EasyLetterGrader
-        // int HardLetterGrader
+        // into HardLetterGrader
         LetterGrader grader = new EasyLetterGrader();
         String[] grades = gradeEachStudent(grader);
         for (String grade : grades) {
