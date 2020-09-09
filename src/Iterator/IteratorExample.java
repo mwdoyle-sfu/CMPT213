@@ -11,17 +11,6 @@ public class IteratorExample {
     public static void main(String args[]) {
         ComparableInterface();
 //        IteratorInterface();
-
-
-
-        
-
-
-
-
-
-
-
     }
 
     private static void IteratorInterface() {

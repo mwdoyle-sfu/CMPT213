@@ -21,12 +21,12 @@ public class Lambda {
         Collections.sort(coffeeList, (o1, o2) -> o1.getCaffeineContent() - o2.getCaffeineContent());
 
         // much less code than the original code below
-//        Collections.sort(coffeeList, new Comparator<Coffee>() {
-//            @Override
-//            public int compare(Coffee o1, Coffee o2) {
-//                return o1.getCaffeineContent() - o2.getCaffeineContent();
-//            }
-//        });
+        Collections.sort(coffeeList, new Comparator<Coffee>() {
+            @Override
+            public int compare(Coffee o1, Coffee o2) {
+                return o1.getCaffeineContent() - o2.getCaffeineContent();
+            }
+        });
 
         // Print the sorted list
         for (Coffee coffee : coffeeList) {

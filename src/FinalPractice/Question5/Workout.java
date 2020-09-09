@@ -2,7 +2,7 @@ package FinalPractice.Question5;
 
 import java.util.Objects;
 
-public abstract class Workout implements Comparable{
+public class Workout implements Comparable{
     private String name;
     private int caloriesBurn;
 
@@ -37,21 +37,24 @@ public abstract class Workout implements Comparable{
 
     @Override
     public int compareTo(Object obj) {
-        //self check
-        if(this == obj) return 1;
-        //null check
-        if(obj == null) return 0;
-        //type check...
-        if(getClass() != obj.getClass()) return 0;
-        //...and cast
+//        //self check
+//        if(this == obj) return 1;
+//        //null check
+//        if(obj == null) return 0;
+//        //type check...
+//        if(getClass() != obj.getClass()) return 0;
+//        //...and cast
+//        Workout objWorkout = (Workout) obj;
+//        //fields comparison (your own definition of "equal")
+//        if (this.caloriesBurn == objWorkout.caloriesBurn) {
+//            return 1;
+//        } else {
+//            return 0;
+//        }
         Workout objWorkout = (Workout) obj;
-        //fields comparison (your own definition of "equal")
-        if (this.caloriesBurn == objWorkout.caloriesBurn) {
-            return 1;
-        } else {
-            return 0;
-        }
+        return this.getCaloriesBurn() - objWorkout.getCaloriesBurn();
     }
+
 
     @Override
     public boolean equals(Object o) {
